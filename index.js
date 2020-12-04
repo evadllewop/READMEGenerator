@@ -2,7 +2,6 @@
 //create variables for all of the 'requires'
 const inquirer = require('inquirer');
 const fs = require('fs');
-// const util = require('util');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 const path = require('path')
 
@@ -33,14 +32,21 @@ const questions = [
     }, {
         type: `input`,
         name: `usage`,
-        message: `What are the steps required to install your project?`,
+        message: `Please provide a small supporting description on how this project works.`,
+        trim: function (answer) {
+            this.question.trim();
+        },
+    }, {
+        type: `input`,
+        name: `credits`,
+        message: `List any documentation or contributors in the making of this project.`,
         trim: function (answer) {
             this.question.trim();
         },
     }, {
         type: 'list',
         name: 'license',
-        message: `What liscense will you be using for your project?`,
+        message: `What license will you be using for your project?`,
         choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal'],
 
     }
