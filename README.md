@@ -22,7 +22,7 @@
   [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/ZUpn8nDRRzY/0.jpg)](http://www.youtube.com/watch?v=ZUpn8nDRRzY)
 
   ## Credits
-  I was able to get a pretty good start due to reading the `inquirer` package documentation that was available at https://www.npmjs.com/package/inquirer#installation. I also would like to give credit to my tutor Andrew Knowles https://github.com/jaknowles97. He was extremely helpful.
+  I was able to get a pretty good start due to reading the `inquirer` package documentation that was available at https://www.npmjs.com/package/inquirer#installation. I also would like to give credit to my tutor Andrew Knowles https://github.com/jaknowles97. 
 
   ## License
   MIT License
